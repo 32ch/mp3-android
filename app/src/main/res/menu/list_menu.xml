@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MusicPlayer_proto_v2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListViewActivity">
+
+    <item
+        android:title="Select All"
+        android:id="@+id/check_all"
+        android:actionViewClass="android.widget.CheckBox"
+        MusicPlayer_proto_v2:showAsAction="always|withText" />
+    <item
+        android:id="@+id/add"
+        android:title="Add"
+        MusicPlayer_proto_v2:showAsAction="always"/>
+</menu>

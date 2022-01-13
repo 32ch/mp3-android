@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MusicPlayer_proto_v2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!-- MainActivity에 보여지는 Actionbar -->
+    <item
+        android:title="add"
+        android:id="@+id/add_action"
+        android:icon="@android:drawable/ic_menu_add"
+        MusicPlayer_proto_v2:showAsAction="always"/>
+    <item
+        android:id="@+id/wifi_search_action"
+        android:title="wifi"
+        android:icon="@drawable/ic_wifi_action"
+        MusicPlayer_proto_v2:showAsAction="always" />
+</menu>
